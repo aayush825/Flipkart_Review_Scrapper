@@ -5489,3 +5489,126 @@ INFO:root:log my final result [{'Product': 'Iphone12', 'Name': 'Flipkart Custome
 INFO:werkzeug:172.18.0.2 - - [19/Mar/2023 16:28:40] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [19/Mar/2023 16:28:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [19/Mar/2023 16:28:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:13:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:13:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:13:27] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:13:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:13:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:14:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:14:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:14:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:root:The DNS query name does not exist: _mongodb._tcp.cluster0.sx5bjbm.mongodb.net.
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:14:35] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:15:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:15:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:15:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone12', 'Name': 'Kuldeep  Prakash', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Excellent camera , good performance,average battery'}, {'Product': 'iphone12', 'Name': 'Sibsankar Das', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Camera quality is just fabulous. Interface is very smooth.  Good for photography and videography.'}, {'Product': 'iphone12', 'Name': 'Sivaramaraju Raju', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Best iPhone till date 💕'}, {'Product': 'iphone12', 'Name': 'Arjun  Chakravarti ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Awesome'}, {'Product': 'iphone12', 'Name': 'Rupesh Thik', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome Camera'}, {'Product': 'iphone12', 'Name': 'Najir  Hussain ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Awesome camera quality…just love it'}, {'Product': 'iphone12', 'Name': 'Jaya chandra  Reddy', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Amazing phone  In love with this phone'}, {'Product': 'iphone12', 'Name': 'Shivam Thakur', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I am very happy with I phone 12Very Nice Product Thanku Flipkart'}, {'Product': 'iphone12', 'Name': 'Manoj Kumar ', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Super'}, {'Product': 'iphone12', 'Name': 'Shivam Kengale', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for it'}, {'Product': 'iphone12', 'Name': 'Shivam Kengale', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Go for it'}]
+INFO:root:The DNS query name does not exist: _mongodb._tcp.cluster0.sx5bjbm.mongodb.net.
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:15:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:20:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:20:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:20:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect Product!!'}]
+INFO:root:The DNS query name does not exist: _mongodb._tcp.cluster0.sx5bjbm.mongodb.net.
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:20:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:21:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:21:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:21:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:root:The DNS query name does not exist: _mongodb._tcp.cluster0.sx5bjbm.mongodb.net.
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:21:21] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:24:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:24:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:24:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect Product!!'}]
+INFO:root:name 'MongoClient' is not defined
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:24:34] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:25:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:25:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:25:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer 👌🏻It will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money 😍'}, {'Product': 'iphone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone11', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super🔥 and good performance 👌❤️'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Photos super'}]
+INFO:root:name 'MongoClient' is not defined
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 15:25:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.25:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:13] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'Sk Eijaj Ahamed', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Display, sounds, Battery and camera superb'}, {'Product': 'redmi', 'Name': 'SOURAV  HALDER ', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "it's like good 😃😃"}, {'Product': 'redmi', 'Name': 'pawan pandey', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Camera an desine osm look is osm Battery backup is good'}, {'Product': 'redmi', 'Name': 'Sanjeev Kumar', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Dashing ful performersthank you Flipkart'}, {'Product': 'redmi', 'Name': 'shubhanshu sharma', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone awesome camera awesome bettery but dlevry is very let but overall phone is awesome'}, {'Product': 'redmi', 'Name': 'Sayan Nanda', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Camera quality is fairly good'}, {'Product': 'redmi', 'Name': 'Anumod Unnikrishnan', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Simply superb phone...'}, {'Product': 'redmi', 'Name': 'Jithin R', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Nice Product.. super camera 👌 disply, battery performance are awesome'}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Love this product'}, {'Product': 'redmi', 'Name': 'Sagar Chavan', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': "I loved it a kot. Ut meets my expectations and especially that 19 mins full charge really works well you just have to go to the settings and BOOST CHARGING SPEED for that then it will charge your phone in 19 minutes only. The camera of the phone is also really good it doesn't give you 30x soom it only give you 10x zoom even though it delivers good quality pictures"}, {'Product': 'redmi', 'Name': 'Sagar Chavan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "I loved it a kot. Ut meets my expectations and especially that 19 mins full charge really works well you just have to go to the settings and BOOST CHARGING SPEED for that then it will charge your phone in 19 minutes only. The camera of the phone is also really good it doesn't give you 30x soom it only give you 10x zoom even though it delivers good quality pictures"}]
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:19] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [05/Oct/2023 16:24:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.18.0.25:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m

@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
@@ -74,14 +75,13 @@ def index():
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
 
-            
-            client = pymongo.MongoClient("mongodb+srv://jaiprkar8848:Jaiprakash@cluster0.sx5bjbm.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://ayushkumar250801:aayush@first.u1vqwpq.mongodb.net/?retryWrites=true&w=majority")
             #creating a database
-            db = client['web_scrapper']
+            db = client['scrapper']
             #creating a collection
-            coll=db['scrapper_reviews']
+            coll=db['day']
             coll.insert_many(reviews)
-
+            
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             logging.info(e)
@@ -93,4 +93,4 @@ def index():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")
+    app.run(host='0.0.0.0',port = 5001)
